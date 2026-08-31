@@ -22,7 +22,7 @@ import (
 	"main/internal/utils"
 )
 
-const startSticker = "CAACAgUAAyEFAAS-Y9n1AAJio2lnx-7YpGWYAAGKW3ILDhBG7Gl0qgACoxsAAnmZoFUj0zVj_zPVix4E"
+const startSticker = "CAACAgUAAxkBAALL4mqU9A00ETaGMD0prbzhX4RRet2oAAIgHwACqCyhVfMkHNmWHrxmPQQ"
 
 var loadingFrames = []string{
 	"😈 <b>ᴅɪηɢ ᴅᴏηɢ.</b>",
@@ -32,7 +32,8 @@ var loadingFrames = []string{
 	"😎 <b>sᴛᴧʀᴛɪηɢ..</b>",
 	"😎 <b>sᴛᴧʀᴛɪηɢ...</b>",
 	"💖 <b>ʜєʏ ʙᴧʙʏ!</b>",
-	"🌺 <b>ᴀɴᴠᴜ ꭙ ϻᴜsɪᴄ ♪\nsᴛᴧʀᴛed!</b>",
+	"🌺 <b>FONT CHANGER BOT:
+    " 𝙲𝚘𝚛𝚎𝚜 𝟗𝟗𝟗 ꭙ ϻᴜsɪᴄ ♪\nsᴛᴧʀᴛed!</b>",
 }
 
 func init() {
@@ -73,7 +74,7 @@ func buildStartCaptionFor(user *tg.UserObj, bot *tg.UserObj) string {
 			"❖ <b>ʀᴀᴍ ᴜsᴀɢᴇ :</b> <code>%s</code>"+
 			"</blockquote>\n"+
 			"●══════════════════●\n"+
-			"<blockquote>✦ <b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ »</b> <a href=\"https://t.me/ll_BLAZE_DRAGUN_ll\">⏤͟͞𝘿 𝙍 𝘼 𝙂 𝙊 𝙉 ⚡️</a></blockquote>\n"+
+			"<blockquote>✦ <b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ »</b> <a href=\"https://t.me/Cores_999\">𝙲𝚘𝚛𝚎𝚜 𝟗𝟗𝟗</a></blockquote>\n"+
 			"●══════════════════●",
 		userMention, botMention,
 		uptime, storageStr, cpuStr, ramStr,
