@@ -87,7 +87,7 @@ func handleNewMember(client *tg.Client, chatID int64, user *tg.UserObj) {
 	mention := utils.MentionHTMLFromUser(user)
 	msg := fmt.Sprintf(
 		"🎉 <b>ᴡᴇʟᴄᴏᴍᴇ</b> %s <b>ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ!</b>\n\n"+
-			"<i>✨ ʜᴏᴘᴇ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ sᴛᴀʏ ɪɴ ʜᴇʀᴇ ~</i>",
+			"<i>✨ သူဘ၀ သူမို့ ပြန်ထွက်သွားလည်းရတယ် 🥲~</i>",
 		mention,
 	)
 
@@ -106,7 +106,7 @@ func handleLeftMember(client *tg.Client, chatID int64, user *tg.UserObj) {
 
 	mention := utils.MentionHTMLFromUser(user)
 	msg := fmt.Sprintf(
-		"👋 <b>%s</b> <i>ʜᴀs ʟᴇꜰᴛ ᴛʜᴇ ɢʀᴏᴜᴘ.</i>",
+		"👋 <b>%s</b> <i>ရပါတယ် သွားပါ .</i>",
 		mention,
 	)
 
