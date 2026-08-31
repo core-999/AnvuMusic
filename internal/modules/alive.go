@@ -21,7 +21,7 @@ import (
 	"main/internal/utils"
 )
 
-const aliveSticker = "CAACAgUAAyEFAAS-Y9n1AAJio2lnx-7YpGWYAAGKW3ILDhBG7Gl0qgACoxsAAnmZoFUj0zVj_zPVix4E"
+const aliveSticker = "CAACAgUAAxkBAALL4mqU9A00ETaGMD0prbzhX4RRet2oAAIgHwACqCyhVfMkHNmWHrxmPQQ"
 
 func init() {
 	helpTexts["/alive"] = `<i>Check if the bot is alive and kicking.</i>
@@ -52,7 +52,7 @@ func aliveHandler(m *tg.NewMessage) error {
 	goVer := runtime.Version()
 
 	caption := fmt.Sprintf(
-		"╔══〔 <b>ᴀɴᴠᴜ × ᴍᴜsɪᴄ</b> 〕══●\n"+
+		"╔══〔 <b>𝙲𝚘𝚛𝚎𝚜𝟗𝟗𝟗 × ᴍᴜsɪᴄ</b> 〕══●\n"+
 			"║ ➤ <b>sᴛᴀᴛᴜs :</b> <code>✅ ᴏɴʟɪɴᴇ</code>\n"+
 			"║ ➤ <b>ᴘɪɴɢ :</b> <code>ᴀʟɪᴠᴇ ✓</code>\n"+
 			"╠══════════════════●\n"+
