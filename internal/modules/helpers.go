@@ -73,7 +73,7 @@ func shouldShowThumb(chatID int64) bool {
 }
 
 // staticFallbackThumb is used when a track has no artwork available.
-const staticFallbackThumb = "https://i.ibb.co/t6z06g1/photo-2026-07-06-16-43-28-7659456606119458816.jpg"
+const staticFallbackThumb = "https://i.ibb.co/0VnyqcDm/x.jpg"
 
 func resolveTrackMedia(chatID int64, track *state.Track) string {
 	if track == nil || !shouldShowThumb(chatID) {
