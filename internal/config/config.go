@@ -105,22 +105,22 @@ func loadConfig() {
 	DurationLimit = int(getInt64("DURATION_LIMIT", 3600)) // In seconds
 	LeaveOnDemoted = getBool("LEAVE_ON_DEMOTED", false)
 	QueueLimit = int(getInt64("QUEUE_LIMIT", 10))
-	SupportChat = getString("SUPPORT_CHAT", "https://t.me/+cWCtXiDOgIxlZWQ1")
-	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/ECHOWAVESUPPORT")
+	SupportChat = getString("SUPPORT_CHAT", "https://t.me/+Idckje-cnt4wNGZl")
+	SupportChannel = getString("SUPPORT_CHANNEL", "https://t.me/myanmarbot_music")
 	CookiesLink = getString("COOKIES_LINK", "")
 	SetCmds = getBool("SET_CMDS", true)
 	MaxAuthUsers = int(getInt64("MAX_AUTH_USERS", 25))
 
 	StartImage = getString(
 		"START_IMG_URL",
-		"https://files.catbox.moe/b0it0d.jpg",
+		"https://i.ibb.co/0VnyqcDm/x.jpg",
 	)
 	PingImage = getString(
 		"PING_IMG_URL",
-		"https://files.catbox.moe/zn17na.jpg",
+		"https://i.ibb.co/wFGtd27V/x.jpg",
 	)
 	Port = getString("PORT", "8000")
-	MustJoin = getString("MUST_JOIN", "ECHOWAVESUPPORT")
+	MustJoin = getString("MUST_JOIN", "myanmarbot_music")
 }
 
 func validateConfig() {
